@@ -1,0 +1,59 @@
+  cell(gf180mcu_fd_sc_mcu9t5v0__hold) {
+    area : 25.401600 ;
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "!Z" ;
+      value : "3.612e-05" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "Z" ;
+      value : "3.612e-05" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      value : "3.612e-05" ;
+    }
+
+    pg_pin(VDD) {
+      voltage_name : VDD ;
+      pg_type : primary_power ;
+    }
+
+    pg_pin(VSS) {
+      voltage_name : VSS ;
+      pg_type : primary_ground ;
+    }
+
+    pin(Z) {
+      capacitance : 0.03399 ;
+      direction : inout ;
+      driver_type : bus_gf180mcu_fd_sc_mcu9t5v0__hold ;
+      function : "Z" ;
+      input_voltage : default ;
+      max_transition : 11.2 ;
+      output_voltage : default ;
+      related_ground_pin : VSS ;
+      related_power_pin : VDD ;
+      three_state : "1" ;
+
+      internal_power() {
+
+        fall_power(pwr_tin_10) {
+          index_1("0.02, 0.09717, 0.368, 0.8853, 1.691, 2.822, 4.31, 6.184, 8.473, 11.2");
+          values("0.08557, 0.08282, 0.08507, 0.09372, 0.1089, 0.1311, 0.1609, 0.1989, \
+                  0.2459, 0.3024");
+        }
+
+        rise_power(pwr_tin_10) {
+          index_1("0.02, 0.09717, 0.368, 0.8853, 1.691, 2.822, 4.31, 6.184, 8.473, 11.2");
+          values("0.001041, -0.001002, -0.002062, 0.003735, 0.01721, 0.03877, 0.06871, \
+                  0.1078, 0.1564, 0.215");
+        }
+      }
+    }
+  }
+

@@ -1,0 +1,47 @@
+# Copyright 2022 GlobalFoundries PDK Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+MACRO gf180mcu_fd_sc_mcu9t5v0__fillcap_8
+  CLASS core SPACER ;
+  FOREIGN gf180mcu_fd_sc_mcu9t5v0__fillcap_8 0.0 0.0 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X Y ;
+  SITE GF018hv5v_green_sc9 ;
+  SIZE 4.48 BY 5.04 ;
+  PIN VDD
+    DIRECTION INOUT ;
+    USE power ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 4.59 0.97 4.59 1.765 4.59 1.765 3.55 1.995 3.55 1.995 4.59 3.21 4.59 4.005 4.59 4.005 3.55 4.235 3.55 4.235 4.59 4.48 4.59 4.48 5.49 4.235 5.49 3.21 5.49 1.995 5.49 0.97 5.49 0 5.49  ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE ground ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 -0.45 4.48 -0.45 4.48 0.45 2.715 0.45 2.715 1.49 2.485 1.49 2.485 0.45 0.475 0.45 0.475 1.49 0.245 1.49 0.245 0.45 0 0.45  ;
+    END
+  END VSS
+  OBS
+      LAYER METAL1 ;
+        POLYGON 0.245 1.83 0.97 1.83 0.97 2.06 0.475 2.06 0.475 4.36 0.245 4.36  ;
+        POLYGON 1.27 2.47 1.765 2.47 1.765 0.68 1.995 0.68 1.995 2.7 1.27 2.7  ;
+        POLYGON 2.485 1.83 3.21 1.83 3.21 2.06 2.715 2.06 2.715 4.36 2.485 4.36  ;
+        POLYGON 3.51 2.47 4.005 2.47 4.005 0.68 4.235 0.68 4.235 2.7 3.51 2.7  ;
+  END
+END gf180mcu_fd_sc_mcu9t5v0__fillcap_8

@@ -1,0 +1,74 @@
+/*
+ * Copyright 2022 GlobalFoundries PDK Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+  cell(gf180mcu_fd_sc_mcu9t5v0__hold) {
+    area : 25.401600 ;
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "!Z" ;
+      value : "1.5751098e-05" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "Z" ;
+      value : "1.5751098e-05" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      value : "1.5751098e-05" ;
+    }
+
+    pg_pin(VDD) {
+      voltage_name : VDD ;
+      pg_type : primary_power ;
+    }
+
+    pg_pin(VSS) {
+      voltage_name : VSS ;
+      pg_type : primary_ground ;
+    }
+
+    pin(Z) {
+      capacitance : 0.0256 ;
+      direction : inout ;
+      driver_type : bus_gf180mcu_fd_sc_mcu9t5v0__hold ;
+      function : "Z" ;
+      input_voltage : default ;
+      max_transition : 6 ;
+      output_voltage : default ;
+      related_ground_pin : VSS ;
+      related_power_pin : VDD ;
+      three_state : "1" ;
+
+      internal_power() {
+
+        fall_power(pwr_tin_10) {
+          index_1("0.02, 0.06127, 0.2062, 0.4828, 0.9139, 1.519, 2.315, 3.317, 4.541, 6");
+          values("0.03695, 0.03602, 0.03563, 0.03675, 0.03928, 0.04318, 0.04846, \
+                  0.0554, 0.06404, 0.07455");
+        }
+
+        rise_power(pwr_tin_10) {
+          index_1("0.02, 0.06127, 0.2062, 0.4828, 0.9139, 1.519, 2.315, 3.317, 4.541, 6");
+          values("0.001723, 0.001181, 0.0002935, 0.0004292, 0.002319, 0.00581, 0.01119, \
+                  0.01828, 0.02738, 0.03851");
+        }
+      }
+    }
+  }
+

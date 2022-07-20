@@ -1,0 +1,65 @@
+/*
+ * Copyright 2022 GlobalFoundries PDK Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+  symbol ("gf180mcu_fd_sc_mcu9t5v0__aoi222_2") {
+    set_minimum_boundary (-110 * SCALE, -120 * SCALE, 110 * SCALE, 120 * SCALE);
+    line (-90 * SCALE, -120 * SCALE, -90 * SCALE, 120 * SCALE);
+    line (-90 * SCALE, 120 * SCALE, 90 * SCALE, 120 * SCALE);
+    line (90 * SCALE, 120 * SCALE, 90 * SCALE, -120 * SCALE);
+    line (90 * SCALE, -120 * SCALE, -90 * SCALE, -120 * SCALE);
+    line (-110 * SCALE, 90 * SCALE, -90 * SCALE, 90 * SCALE);
+    line (-110 * SCALE, 60 * SCALE, -90 * SCALE, 60 * SCALE);
+    line (-110 * SCALE, 30 * SCALE, -90 * SCALE, 30 * SCALE);
+    line (-110 * SCALE, -30 * SCALE, -90 * SCALE, -30 * SCALE);
+    line (-110 * SCALE, -60 * SCALE, -90 * SCALE, -60 * SCALE);
+    line (-110 * SCALE, -90 * SCALE, -90 * SCALE, -90 * SCALE);
+    line (90 * SCALE, 0 * SCALE, 110 * SCALE, 0 * SCALE);
+    line (106 * SCALE, -4 * SCALE, 106 * SCALE, 4 * SCALE);
+    line (106 * SCALE, 4 * SCALE, 134 * SCALE, 4 * SCALE);
+    line (134 * SCALE, 4 * SCALE, 134 * SCALE, -4 * SCALE);
+    line (134 * SCALE, -4 * SCALE, 106 * SCALE, -4 * SCALE);
+    pin ("ZN", 120 * SCALE, 0 * SCALE, ANY_ROTATION);
+    line (-134 * SCALE, -94 * SCALE, -134 * SCALE, -86 * SCALE);
+    line (-134 * SCALE, -86 * SCALE, -106 * SCALE, -86 * SCALE);
+    line (-106 * SCALE, -86 * SCALE, -106 * SCALE, -94 * SCALE);
+    line (-106 * SCALE, -94 * SCALE, -134 * SCALE, -94 * SCALE);
+    pin ("C2", -120 * SCALE, -90 * SCALE, ANY_ROTATION);
+    line (-134 * SCALE, -64 * SCALE, -134 * SCALE, -56 * SCALE);
+    line (-134 * SCALE, -56 * SCALE, -106 * SCALE, -56 * SCALE);
+    line (-106 * SCALE, -56 * SCALE, -106 * SCALE, -64 * SCALE);
+    line (-106 * SCALE, -64 * SCALE, -134 * SCALE, -64 * SCALE);
+    pin ("C1", -120 * SCALE, -60 * SCALE, ANY_ROTATION);
+    line (-134 * SCALE, -34 * SCALE, -134 * SCALE, -26 * SCALE);
+    line (-134 * SCALE, -26 * SCALE, -106 * SCALE, -26 * SCALE);
+    line (-106 * SCALE, -26 * SCALE, -106 * SCALE, -34 * SCALE);
+    line (-106 * SCALE, -34 * SCALE, -134 * SCALE, -34 * SCALE);
+    pin ("B2", -120 * SCALE, -30 * SCALE, ANY_ROTATION);
+    line (-134 * SCALE, 26 * SCALE, -134 * SCALE, 34 * SCALE);
+    line (-134 * SCALE, 34 * SCALE, -106 * SCALE, 34 * SCALE);
+    line (-106 * SCALE, 34 * SCALE, -106 * SCALE, 26 * SCALE);
+    line (-106 * SCALE, 26 * SCALE, -134 * SCALE, 26 * SCALE);
+    pin ("B1", -120 * SCALE, 30 * SCALE, ANY_ROTATION);
+    line (-134 * SCALE, 56 * SCALE, -134 * SCALE, 64 * SCALE);
+    line (-134 * SCALE, 64 * SCALE, -106 * SCALE, 64 * SCALE);
+    line (-106 * SCALE, 64 * SCALE, -106 * SCALE, 56 * SCALE);
+    line (-106 * SCALE, 56 * SCALE, -134 * SCALE, 56 * SCALE);
+    pin ("A2", -120 * SCALE, 60 * SCALE, ANY_ROTATION);
+    line (-134 * SCALE, 86 * SCALE, -134 * SCALE, 94 * SCALE);
+    line (-134 * SCALE, 94 * SCALE, -106 * SCALE, 94 * SCALE);
+    line (-106 * SCALE, 94 * SCALE, -106 * SCALE, 86 * SCALE);
+    line (-106 * SCALE, 86 * SCALE, -134 * SCALE, 86 * SCALE);
+    pin ("A1", -120 * SCALE, 90 * SCALE, ANY_ROTATION);
+  } /* end of symbol "gf180mcu_fd_sc_mcu9t5v0__aoi222_2" */

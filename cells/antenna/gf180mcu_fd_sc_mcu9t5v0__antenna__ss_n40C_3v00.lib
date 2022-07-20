@@ -1,0 +1,74 @@
+  cell(gf180mcu_fd_sc_mcu9t5v0__antenna) {
+    area : 5.644800 ;
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "!I" ;
+      value : "2.7e-05" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VSS" ;
+      when : "!I" ;
+      value : "1.8e-05" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "I" ;
+      value : "1.8e-05" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VSS" ;
+      when : "I" ;
+      value : "2.7e-05" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      value : "1.8e-05" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VSS" ;
+      value : "2.7e-05" ;
+    }
+
+    pg_pin(VDD) {
+      voltage_name : VDD ;
+      pg_type : primary_power ;
+    }
+
+    pg_pin(VSS) {
+      voltage_name : VSS ;
+      pg_type : primary_ground ;
+    }
+
+    pin(I) {
+      capacitance : 0.001142 ;
+      direction : input ;
+      driver_waveform_rise : driver_waveform_default_rise ;
+      driver_waveform_fall : driver_waveform_default_fall ;
+      input_voltage : default ;
+      max_transition : 11.2 ;
+      related_ground_pin : VSS ;
+      related_power_pin : VDD ;
+
+      internal_power() {
+
+        fall_power(pwr_tin_10) {
+          index_1("0.02, 0.09717, 0.368, 0.8853, 1.691, 2.822, 4.31, 6.184, 8.473, 11.2");
+          values("0.003667, 0.003657, 0.003658, 0.003667, 0.003679, 0.003685, 0.003686, \
+                  0.003685, 0.003681, 0.003683");
+        }
+
+        rise_power(pwr_tin_10) {
+          index_1("0.02, 0.09717, 0.368, 0.8853, 1.691, 2.822, 4.31, 6.184, 8.473, 11.2");
+          values("-0.003664, -0.00367, -0.003672, -0.003668, -0.003681, -0.003682, \
+                  -0.003683, -0.003686, -0.003688, -0.003682");
+        }
+      }
+    }
+  }
+

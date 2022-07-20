@@ -1,0 +1,64 @@
+# Copyright 2022 GlobalFoundries PDK Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+MACRO gf180mcu_fd_sc_mcu9t5v0__nand2_1
+  CLASS core ;
+  FOREIGN gf180mcu_fd_sc_mcu9t5v0__nand2_1 0.0 0.0 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X Y ;
+  SITE GF018hv5v_green_sc9 ;
+  SIZE 2.8 BY 5.04 ;
+  PIN A1
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 1.6145 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 1.83 2.33 2.09 2.33 2.09 3.27 1.83 3.27  ;
+    END
+  END A1
+  PIN A2
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 1.6145 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0.635 1.77 0.975 1.77 0.975 2.71 0.635 2.71  ;
+    END
+  END A2
+  PIN ZN
+    DIRECTION OUTPUT ;
+    ANTENNADIFFAREA 1.4362 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 1.27 3.02 1.53 3.02 1.53 3.6 2.32 3.6 2.32 1.59 1.27 1.59 1.27 1.21 2.29 1.21 2.29 0.68 2.55 0.68 2.55 3.83 1.27 3.83  ;
+    END
+  END ZN
+  PIN VDD
+    DIRECTION INOUT ;
+    USE power ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 4.59 0.25 4.59 0.25 3.69 0.48 3.69 0.48 4.59 2.29 4.59 2.29 4.16 2.52 4.16 2.52 4.59 2.8 4.59 2.8 5.49 0 5.49  ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE ground ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 -0.45 2.8 -0.45 2.8 0.45 0.48 0.45 0.48 1.165 0.25 1.165 0.25 0.45 0 0.45  ;
+    END
+  END VSS
+END gf180mcu_fd_sc_mcu9t5v0__nand2_1

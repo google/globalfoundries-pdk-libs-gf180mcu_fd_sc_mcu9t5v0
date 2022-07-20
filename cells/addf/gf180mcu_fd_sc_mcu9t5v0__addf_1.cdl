@@ -1,0 +1,46 @@
+* Copyright 2022 GlobalFoundries PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.SUBCKT gf180mcu_fd_sc_mcu9t5v0__addf_1 A B CI CO S VDD VNW VPW VSS
+*.PININFO A:I B:I CI:I CO:O S:O VDD:P VNW:P VPW:P VSS:G
+*.EQN CO=(((B * CI) + (B * A)) + (CI * A));S=!((!((B * CI) + !(B + CI)) * A) + !(!((B * CI) + !(B + CI)) + A))
+M_M51 VSS net9 S VPW nmos_5p0 W=1.180000U L=0.600000U
+M_M50 net49 A VSS VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M48 net47 B net49 VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M46 net9 CI net47 VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M41 net9 net7 net42 VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M43 net42 A VSS VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M44 VSS B net42 VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M45 net42 CI VSS VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M40 VSS B net5 VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M39 net5 A VSS VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M38 net7 CI net5 VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M37 net36 B net7 VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M35 VSS A net36 VPW nmos_5p0 W=0.590000U L=0.600000U
+M_M34 CO net7 VSS VPW nmos_5p0 W=1.320000U L=0.600000U
+M_M33 VDD net9 S VNW pmos_5p0 W=1.830000U L=0.500000U
+M_M32 net31 A VDD VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M30 net29 B net31 VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M28 net9 CI net29 VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M24 net9 net7 net3 VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M25 net3 A VDD VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M26 VDD B net3 VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M27 net3 CI VDD VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M23 VDD B net1 VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M22 net1 A VDD VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M21 net7 CI net1 VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M20 net19 B net7 VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M18 VDD A net19 VNW pmos_5p0 W=0.990000U L=0.500000U
+M_M17 CO net7 VDD VNW pmos_5p0 W=1.830000U L=0.500000U
+.ENDS

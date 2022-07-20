@@ -1,0 +1,72 @@
+# Copyright 2022 GlobalFoundries PDK Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+MACRO gf180mcu_fd_sc_mcu9t5v0__latq_4
+  CLASS core ;
+  FOREIGN gf180mcu_fd_sc_mcu9t5v0__latq_4 0.0 0.0 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X Y ;
+  SITE GF018hv5v_green_sc9 ;
+  SIZE 15.68 BY 5.04 ;
+  PIN D
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.92 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 4.07 1.21 4.33 1.21 4.33 2.15 4.07 2.15  ;
+    END
+  END D
+  PIN E
+    DIRECTION INPUT ;
+    USE clock ;
+    ANTENNAGATEAREA 1.164 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0.71 1.77 1.02 1.77 1.02 2.71 0.71 2.71  ;
+    END
+  END E
+  PIN Q
+    DIRECTION OUTPUT ;
+    ANTENNADIFFAREA 3.276 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 11.01 1.92 11.31 1.92 11.31 0.68 11.54 0.68 11.54 1.21 13.55 1.21 13.55 0.68 13.78 0.68 13.78 1.49 13.28 1.49 13.28 4.065 13.05 4.065 13.05 1.44 11.61 1.44 11.61 2.15 11.24 2.15 11.24 4.065 11.01 4.065  ;
+    END
+  END Q
+  PIN VDD
+    DIRECTION INOUT ;
+    USE power ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 4.59 1.37 4.59 1.37 3.255 1.6 3.255 1.6 4.59 2.22 4.59 3.79 4.59 3.79 3.255 4.02 3.255 4.02 4.59 7.77 4.59 7.77 3.255 8 3.255 8 4.59 9.12 4.59 9.81 4.59 9.81 3.255 10.04 3.255 10.04 4.59 12.03 4.59 12.03 3.255 12.26 3.255 12.26 4.59 14.07 4.59 14.07 3.255 14.3 3.255 14.3 4.59 15.68 4.59 15.68 5.49 9.12 5.49 2.22 5.49 0 5.49  ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE ground ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 -0.45 15.68 -0.45 15.68 0.45 14.9 0.45 14.9 1.49 14.67 1.49 14.67 0.45 12.66 0.45 12.66 0.98 12.43 0.98 12.43 0.45 10.24 0.45 10.24 1.02 10.01 1.02 10.01 0.45 8 0.45 8 1.02 7.77 1.02 7.77 0.45 3.62 0.45 3.62 1.02 3.39 1.02 3.39 0.45 1.6 0.45 1.6 1.02 1.37 1.02 1.37 0.45 0 0.45  ;
+    END
+  END VSS
+  OBS
+      LAYER METAL1 ;
+        POLYGON 0.25 0.68 0.48 0.68 0.48 1.31 2.22 1.31 2.22 2.15 1.99 2.15 1.99 1.54 0.48 1.54 0.48 3.255 0.58 3.255 0.58 4.065 0.25 4.065  ;
+        POLYGON 2.57 0.68 2.9 0.68 2.9 2.38 4.67 2.38 4.67 1.81 4.9 1.81 4.9 2.38 6.06 2.38 6.06 2.72 2.8 2.72 2.8 4.065 2.57 4.065  ;
+        POLYGON 5.55 2.95 6.29 2.95 6.29 1.02 5.35 1.02 5.35 0.68 7.54 0.68 7.54 1.25 8.44 1.25 8.44 2.15 8.21 2.15 8.21 1.48 7.31 1.48 7.31 0.91 6.52 0.91 6.52 3.18 5.78 3.18 5.78 4.065 5.55 4.065  ;
+        POLYGON 7.33 1.81 7.56 1.81 7.56 2.38 8.89 2.38 8.89 0.68 9.12 0.68 9.12 4.065 8.79 4.065 8.79 2.61 7.33 2.61  ;
+  END
+END gf180mcu_fd_sc_mcu9t5v0__latq_4
