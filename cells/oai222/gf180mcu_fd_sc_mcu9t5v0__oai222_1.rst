@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__oai222_1
 
 **gf180mcu_fd_sc_mcu9t5v0__oai222_1 symbol**
 
-.. image:: sc9_sym/OAI222_X1_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__oai222_1.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__oai222_1 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__oai222_1 schematic**
 
-.. image:: sc9_sch/OAI222_X1_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__oai222_1.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__oai222_1 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__oai222_1 layout**
 
-.. image:: sc9_lay/OAI222_X1_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__oai222_1.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__oai222_1 layout
 
-.. include:: images.rst
+
 | OAI222_X1 is a three 2-input OR into 3-input NAND with 1X drive strength
 
 |
@@ -66,7 +57,9 @@ ZN             (((!A1)&(!A2))|((!B1)&(!B2))|((!C1)&(!C2)))
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image545|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__oai222_1.png
+
 
 | PIN CAPACITANCE (pf)
 

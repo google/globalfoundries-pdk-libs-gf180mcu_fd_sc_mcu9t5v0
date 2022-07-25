@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__hold
 
 **gf180mcu_fd_sc_mcu9t5v0__hold symbol**
 
-.. image:: sc9_sym/HOLD_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__hold.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__hold symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__hold schematic**
 
-.. image:: sc9_sch/HOLD_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__hold.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__hold schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__hold layout**
 
-.. image:: sc9_lay/HOLD_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__hold.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__hold layout
 
-.. include:: images.rst
+
 | HOLD is a state holder cell
 
 |
@@ -56,7 +47,9 @@ Z              Z
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image344|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__hold.png
+
 
 | PIN CAPACITANCE (pf)
 

@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__sdffq_4
 
 **gf180mcu_fd_sc_mcu9t5v0__sdffq_4 symbol**
 
-.. image:: sc9_sym/SDFFQ_X4_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__sdffq_4.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__sdffq_4 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__sdffq_4 schematic**
 
-.. image:: sc9_sch/SDFFQ_X4_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__sdffq_4.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__sdffq_4 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__sdffq_4 layout**
 
-.. image:: sc9_lay/SDFFQ_X4_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__sdffq_4.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__sdffq_4 layout
 
-.. include:: images.rst
+
 | SDFFQ_X4 is a positive edge triggered scan D-type flip flop with 4X drive strength
 
 |
@@ -52,7 +43,9 @@ H     H  X ↑   H
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image623|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__sdffq_4.png
+
 | CONSTRAINTS
 
 ================== =============== ============= ============

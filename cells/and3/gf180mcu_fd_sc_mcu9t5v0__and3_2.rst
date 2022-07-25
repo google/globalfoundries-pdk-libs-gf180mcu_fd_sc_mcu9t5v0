@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__and3_2
 
 **gf180mcu_fd_sc_mcu9t5v0__and3_2 symbol**
 
-.. image:: sc9_sym/AND3_X2_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__and3_2.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__and3_2 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__and3_2 schematic**
 
-.. image:: sc9_sch/AND3_X2_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__and3_2.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__and3_2 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__and3_2 layout**
 
-.. image:: sc9_lay/AND3_X2_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__and3_2.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__and3_2 layout
 
-.. include:: images.rst
+
 | AND3_X2 is a 3-input AND with 2X drive strength
 
 |
@@ -59,7 +50,9 @@ Z              (A1&A2&A3)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image38|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__and3_2.png
+
 
 | PIN CAPACITANCE (pf)
 

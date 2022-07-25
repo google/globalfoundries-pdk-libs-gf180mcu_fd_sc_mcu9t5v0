@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__inv_2
 
 **gf180mcu_fd_sc_mcu9t5v0__inv_2 symbol**
 
-.. image:: sc9_sym/INV_X2_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_2.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__inv_2 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__inv_2 schematic**
 
-.. image:: sc9_sch/INV_X2_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_2.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__inv_2 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__inv_2 layout**
 
-.. image:: sc9_lay/INV_X2_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_2.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__inv_2 layout
 
-.. include:: images.rst
+
 | INV_X2 is an inverter with 2X drive strength
 
 |
@@ -57,7 +48,9 @@ ZN             (!I)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image395|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_2.png
+
 
 | PIN CAPACITANCE (pf)
 

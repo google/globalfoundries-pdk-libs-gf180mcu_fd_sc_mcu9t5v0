@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__nand3_2
 
 **gf180mcu_fd_sc_mcu9t5v0__nand3_2 symbol**
 
-.. image:: sc9_sym/NAND3_X2_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__nand3_2.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__nand3_2 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__nand3_2 schematic**
 
-.. image:: sc9_sch/NAND3_X2_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__nand3_2.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__nand3_2 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__nand3_2 layout**
 
-.. image:: sc9_lay/NAND3_X2_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__nand3_2.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__nand3_2 layout
 
-.. include:: images.rst
+
 | NAND3_X2 is a 3-input NAND with 2X drive strength
 
 |
@@ -59,7 +50,9 @@ ZN             ((!A1)|(!A2)|(!A3))
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image476|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__nand3_2.png
+
 
 | PIN CAPACITANCE (pf)
 

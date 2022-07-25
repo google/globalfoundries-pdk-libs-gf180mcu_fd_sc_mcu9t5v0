@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__clkinv_3
 
 **gf180mcu_fd_sc_mcu9t5v0__clkinv_3 symbol**
 
-.. image:: sc9_sym/CLKINV_X3_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_3.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__clkinv_3 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__clkinv_3 schematic**
 
-.. image:: sc9_sch/CLKINV_X3_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_3.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__clkinv_3 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__clkinv_3 layout**
 
-.. image:: sc9_lay/CLKINV_X3_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_3.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__clkinv_3 layout
 
-.. include:: images.rst
+
 | CLKINV_X3 is a clock inverter with 3X drive strength
 
 |
@@ -57,7 +48,9 @@ ZN             (!I)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image185|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_3.png
+
 
 | PIN CAPACITANCE (pf)
 

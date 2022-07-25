@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__clkinv_x20
 
 **gf180mcu_fd_sc_mcu9t5v0__clkinv_x20 symbol**
 
-.. image:: sc9_sym/CLKINV_X20_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_20.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__clkinv_x20 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__clkinv_x20 schematic**
 
-.. image:: sc9_sch/CLKINV_X20_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_20.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__clkinv_x20 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__clkinv_x20 layout**
 
-.. image:: sc9_lay/CLKINV_X20_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_20.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__clkinv_x20 layout
 
-.. include:: images.rst
+
 | CLKINV_X20 is a clock inverter with 20X drive strength
 
 |
@@ -57,7 +48,9 @@ ZN             (!I)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image182|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_20.png
+
 
 | PIN CAPACITANCE (pf)
 

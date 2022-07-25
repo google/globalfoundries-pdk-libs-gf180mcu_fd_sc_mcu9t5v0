@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__aoi21_1
 
 **gf180mcu_fd_sc_mcu9t5v0__aoi21_1 symbol**
 
-.. image:: sc9_sym/AOI21_X1_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__aoi21_1.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__aoi21_1 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__aoi21_1 schematic**
 
-.. image:: sc9_sch/AOI21_X1_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__aoi21_1.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__aoi21_1 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__aoi21_1 layout**
 
-.. image:: sc9_lay/AOI21_X1_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__aoi21_1.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__aoi21_1 layout
 
-.. include:: images.rst
+
 | AOI21_X1 is a 2-input AND into 2-input NOR with 1X drive strength
 
 |
@@ -59,7 +50,9 @@ ZN             (((!A1)&(!B))|((!A2)&(!B)))
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image65|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__aoi21_1.png
+
 
 | PIN CAPACITANCE (pf)
 

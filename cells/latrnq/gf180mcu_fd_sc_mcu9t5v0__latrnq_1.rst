@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__latrnq_1
 
 **gf180mcu_fd_sc_mcu9t5v0__latrnq_1 symbol**
 
-.. image:: sc9_sym/LATRNQ_X1_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latrnq_1.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__latrnq_1 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__latrnq_1 schematic**
 
-.. image:: sc9_sch/LATRNQ_X1_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latrnq_1.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__latrnq_1 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__latrnq_1 layout**
 
-.. image:: sc9_lay/LATRNQ_X1_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latrnq_1.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__latrnq_1 layout
 
-.. include:: images.rst
+
 | LATRNQ_X1 is a positive D-latch with active low reset and 1X drive strength
 
 |
@@ -52,7 +43,9 @@ L     X X L
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image419|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latrnq_1.png
+
 | CONSTRAINTS
 
 ================== =============== ============= ============

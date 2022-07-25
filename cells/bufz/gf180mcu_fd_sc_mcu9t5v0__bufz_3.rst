@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__bufz_3
 
 **gf180mcu_fd_sc_mcu9t5v0__bufz_3 symbol**
 
-.. image:: sc9_sym/BUFZ_X3_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__bufz_3.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__bufz_3 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__bufz_3 schematic**
 
-.. image:: sc9_sch/BUFZ_X3_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__bufz_3.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__bufz_3 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__bufz_3 layout**
 
-.. image:: sc9_lay/BUFZ_X3_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__bufz_3.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__bufz_3 layout
 
-.. include:: images.rst
+
 | BUFZ_X3 is a tri-state buffer with 3X drive strength
 
 |
@@ -58,7 +49,9 @@ Z              I
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image113|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__bufz_3.png
+
 
 | PIN CAPACITANCE (pf)
 

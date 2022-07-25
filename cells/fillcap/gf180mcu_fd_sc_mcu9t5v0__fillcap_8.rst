@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__fillcap_8
 
 **gf180mcu_fd_sc_mcu9t5v0__fillcap_8 symbol**
 
-.. image:: sc9_sym/FILLCAP_X8_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__fillcap_8.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__fillcap_8 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__fillcap_8 schematic**
 
-.. image:: sc9_sch/FILLCAP_X8_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__fillcap_8.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__fillcap_8 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__fillcap_8 layout**
 
-.. image:: sc9_lay/FILLCAP_X8_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__fillcap_8.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__fillcap_8 layout
 
-.. include:: images.rst
+
 | FILLCAP_X8 is a filler whose width is 4.48um with decoupling cap between VDD and VSS
 
 |
@@ -39,7 +30,9 @@ area          22.579200 µm\ :sup:`2`
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image317|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__fillcap_8.png
+
 | LEAKAGE POWER
 
 ================== ==============

@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__dffrnq_2
 
 **gf180mcu_fd_sc_mcu9t5v0__dffrnq_2 symbol**
 
-.. image:: sc9_sym/DFFRNQ_X2_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__dffrnq_2.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__dffrnq_2 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__dffrnq_2 schematic**
 
-.. image:: sc9_sch/DFFRNQ_X2_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__dffrnq_2.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__dffrnq_2 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__dffrnq_2 layout**
 
-.. image:: sc9_lay/DFFRNQ_X2_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__dffrnq_2.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__dffrnq_2 layout
 
-.. include:: images.rst
+
 | DFFRNQ_X2 is a positive edge triggered D-type flip flop with active low reset and 2X drive strength
 
 |
@@ -51,7 +42,9 @@ L     X X   L
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image242|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__dffrnq_2.png
+
 | CONSTRAINTS
 
 ================== =============== ============= ============

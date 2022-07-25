@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__inv_8
 
 **gf180mcu_fd_sc_mcu9t5v0__inv_8 symbol**
 
-.. image:: sc9_sym/INV_X8_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_8.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__inv_8 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__inv_8 schematic**
 
-.. image:: sc9_sch/INV_X8_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_8.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__inv_8 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__inv_8 layout**
 
-.. image:: sc9_lay/INV_X8_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_8.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__inv_8 layout
 
-.. include:: images.rst
+
 | INV_X8 is an inverter with 8X drive strength
 
 |
@@ -57,7 +48,9 @@ ZN             (!I)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image407|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_8.png
+
 
 | PIN CAPACITANCE (pf)
 

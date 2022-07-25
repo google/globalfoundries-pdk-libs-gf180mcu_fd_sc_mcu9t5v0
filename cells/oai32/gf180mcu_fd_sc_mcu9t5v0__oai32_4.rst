@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__oai32_4
 
 **gf180mcu_fd_sc_mcu9t5v0__oai32_4 symbol**
 
-.. image:: sc9_sym/OAI32_X4_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__oai32_4.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__oai32_4 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__oai32_4 schematic**
 
-.. image:: sc9_sch/OAI32_X4_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__oai32_4.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__oai32_4 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__oai32_4 layout**
 
-.. image:: sc9_lay/OAI32_X4_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__oai32_4.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__oai32_4 layout
 
-.. include:: images.rst
+
 | OAI32_X4 is a two 3-input OR, 2-input OR into 2-input NAND with 4X drive strength
 
 |
@@ -63,7 +54,9 @@ ZN             (((!A1)&(!A2)&(!A3))|((!B1)&(!B2)))
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image578|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__oai32_4.png
+
 
 | PIN CAPACITANCE (pf)
 

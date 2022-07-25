@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__latq_2
 
 **gf180mcu_fd_sc_mcu9t5v0__latq_2 symbol**
 
-.. image:: sc9_sym/LATQ_X2_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latq_2.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__latq_2 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__latq_2 schematic**
 
-.. image:: sc9_sch/LATQ_X2_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latq_2.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__latq_2 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__latq_2 layout**
 
-.. image:: sc9_lay/LATQ_X2_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latq_2.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__latq_2 layout
 
-.. include:: images.rst
+
 | LATQ_X2 is a positive D-latch with 2X drive strength
 
 |
@@ -51,7 +42,9 @@ X     L Q
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image413|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latq_2.png
+
 | CONSTRAINTS
 
 ================== =============== ============= ============

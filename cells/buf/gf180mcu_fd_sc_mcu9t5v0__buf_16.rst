@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__buf_x16
 
 **gf180mcu_fd_sc_mcu9t5v0__buf_x16 symbol**
 
-.. image:: sc9_sym/BUF_X16_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__buf_16.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__buf_x16 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__buf_x16 schematic**
 
-.. image:: sc9_sch/BUF_X16_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__buf_16.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__buf_x16 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__buf_x16 layout**
 
-.. image:: sc9_lay/BUF_X16_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__buf_16.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__buf_x16 layout
 
-.. include:: images.rst
+
 | BUF_X16 is a buffer with 16X drive strength
 
 |
@@ -57,7 +48,9 @@ Z              I
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image128|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__buf_16.png
+
 
 | PIN CAPACITANCE (pf)
 

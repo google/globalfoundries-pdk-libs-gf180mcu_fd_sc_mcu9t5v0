@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__addf_2
 
 **gf180mcu_fd_sc_mcu9t5v0__addf_2 symbol**
 
-.. image:: sc9_sym/ADDF_X2_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addf_2.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__addf_2 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__addf_2 schematic**
 
-.. image:: sc9_sch/ADDF_X2_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addf_2.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__addf_2 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__addf_2 layout**
 
-.. image:: sc9_lay/ADDF_X2_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addf_2.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__addf_2 layout
 
-.. include:: images.rst
+
 | ADDF_X2 is a 1 bit Full Adder with 2X drive strength
 
 |
@@ -77,7 +68,9 @@ CO             ((A&B)|(A&CI)|(B&CI))
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image11|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addf_2.png
+
 
 | PIN CAPACITANCE (pf)
 

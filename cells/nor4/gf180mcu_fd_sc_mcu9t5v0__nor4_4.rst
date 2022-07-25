@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__nor4_4
 
 **gf180mcu_fd_sc_mcu9t5v0__nor4_4 symbol**
 
-.. image:: sc9_sym/NOR4_X4_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__nor4_4.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__nor4_4 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__nor4_4 schematic**
 
-.. image:: sc9_sch/NOR4_X4_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__nor4_4.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__nor4_4 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__nor4_4 layout**
 
-.. image:: sc9_lay/NOR4_X4_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__nor4_4.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__nor4_4 layout
 
-.. include:: images.rst
+
 | NOR4_X4 is a 4-input NOR with 4X drive strength
 
 |
@@ -60,7 +51,9 @@ ZN             ((!A1)&(!A2)&(!A3)&(!A4))
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image515|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__nor4_4.png
+
 
 | PIN CAPACITANCE (pf)
 

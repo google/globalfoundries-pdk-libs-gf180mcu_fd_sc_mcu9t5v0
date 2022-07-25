@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__buf_8
 
 **gf180mcu_fd_sc_mcu9t5v0__buf_8 symbol**
 
-.. image:: sc9_sym/BUF_X8_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__buf_8.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__buf_8 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__buf_8 schematic**
 
-.. image:: sc9_sch/BUF_X8_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__buf_8.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__buf_8 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__buf_8 layout**
 
-.. image:: sc9_lay/BUF_X8_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__buf_8.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__buf_8 layout
 
-.. include:: images.rst
+
 | BUF_X8 is a buffer with 8X drive strength
 
 |
@@ -57,7 +48,9 @@ Z              I
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image143|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__buf_8.png
+
 
 | PIN CAPACITANCE (pf)
 

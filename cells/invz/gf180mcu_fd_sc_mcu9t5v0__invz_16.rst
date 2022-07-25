@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__invz_x16
 
 **gf180mcu_fd_sc_mcu9t5v0__invz_x16 symbol**
 
-.. image:: sc9_sym/INVZ_X16_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_16.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__invz_x16 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__invz_x16 schematic**
 
-.. image:: sc9_sch/INVZ_X16_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_16.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__invz_x16 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__invz_x16 layout**
 
-.. image:: sc9_lay/INVZ_X16_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_16.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__invz_x16 layout
 
-.. include:: images.rst
+
 | INVZ_X16 is a tri-state inverter with 16X drive strength
 
 |
@@ -58,7 +49,9 @@ ZN             (!I)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image371|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_16.png
+
 
 | PIN CAPACITANCE (pf)
 

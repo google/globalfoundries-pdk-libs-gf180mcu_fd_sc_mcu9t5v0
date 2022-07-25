@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__clkinv_x12
 
 **gf180mcu_fd_sc_mcu9t5v0__clkinv_x12 symbol**
 
-.. image:: sc9_sym/CLKINV_X12_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_12.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__clkinv_x12 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__clkinv_x12 schematic**
 
-.. image:: sc9_sch/CLKINV_X12_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_12.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__clkinv_x12 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__clkinv_x12 layout**
 
-.. image:: sc9_lay/CLKINV_X12_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_12.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__clkinv_x12 layout
 
-.. include:: images.rst
+
 | CLKINV_X12 is a clock inverter with 12X drive strength
 
 |
@@ -57,7 +48,9 @@ ZN             (!I)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image173|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__clkinv_12.png
+
 
 | PIN CAPACITANCE (pf)
 

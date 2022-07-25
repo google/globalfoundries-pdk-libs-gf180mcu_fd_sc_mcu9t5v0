@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__addf_4
 
 **gf180mcu_fd_sc_mcu9t5v0__addf_4 symbol**
 
-.. image:: sc9_sym/ADDF_X4_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addf_4.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__addf_4 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__addf_4 schematic**
 
-.. image:: sc9_sch/ADDF_X4_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addf_4.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__addf_4 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__addf_4 layout**
 
-.. image:: sc9_lay/ADDF_X4_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addf_4.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__addf_4 layout
 
-.. include:: images.rst
+
 | ADDF_X4 is a 1 bit Full Adder with 4X drive strength
 
 |
@@ -77,7 +68,9 @@ CO             ((A&B)|(A&CI)|(B&CI))
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image14|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addf_4.png
+
 
 | PIN CAPACITANCE (pf)
 

@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__icgtn_1
 
 **gf180mcu_fd_sc_mcu9t5v0__icgtn_1 symbol**
 
-.. image:: sc9_sym/ICGTN_X1_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__icgtn_1.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__icgtn_1 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__icgtn_1 schematic**
 
-.. image:: sc9_sch/ICGTN_X1_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__icgtn_1.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__icgtn_1 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__icgtn_1 layout**
 
-.. image:: sc9_lay/ICGTN_X1_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__icgtn_1.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__icgtn_1 layout
 
-.. include:: images.rst
+
 | ICGTN_X1 is a negative-edge triggered clock-gating latch with 1X drive strength
 
 |
@@ -57,7 +48,9 @@ X  X L    QDN(n)   QDN(n)
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image347|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__icgtn_1.png
+
 | CONSTRAINTS
 
 ================== =============== ============= ============

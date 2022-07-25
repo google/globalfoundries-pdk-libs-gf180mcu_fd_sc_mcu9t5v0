@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__latrsnq_2
 
 **gf180mcu_fd_sc_mcu9t5v0__latrsnq_2 symbol**
 
-.. image:: sc9_sym/LATRSNQ_X2_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latrsnq_2.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__latrsnq_2 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__latrsnq_2 schematic**
 
-.. image:: sc9_sch/LATRSNQ_X2_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latrsnq_2.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__latrsnq_2 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__latrsnq_2 layout**
 
-.. image:: sc9_lay/LATRSNQ_X2_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latrsnq_2.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__latrsnq_2 layout
 
-.. include:: images.rst
+
 | LATRSNQ_X2 is a positive D-latch with active low set/reset and 2X drive strength
 
 |
@@ -54,7 +45,9 @@ L     L    X X H
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image431|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__latrsnq_2.png
+
 | CONSTRAINTS
 
 ================== =============== ============= ============

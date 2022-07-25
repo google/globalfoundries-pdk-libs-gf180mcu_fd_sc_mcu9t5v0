@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__addh_1
 
 **gf180mcu_fd_sc_mcu9t5v0__addh_1 symbol**
 
-.. image:: sc9_sym/ADDH_X1_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addh_1.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__addh_1 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__addh_1 schematic**
 
-.. image:: sc9_sch/ADDH_X1_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addh_1.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__addh_1 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__addh_1 layout**
 
-.. image:: sc9_lay/ADDH_X1_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addh_1.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__addh_1 layout
 
-.. include:: images.rst
+
 | ADDH_X1 is a 1 bit Half Adder with 1X drive strength
 
 |
@@ -70,7 +61,9 @@ S              (A^B)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image17|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__addh_1.png
+
 
 | PIN CAPACITANCE (pf)
 

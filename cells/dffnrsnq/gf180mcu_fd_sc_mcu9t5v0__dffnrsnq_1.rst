@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1
 
 **gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1 symbol**
 
-.. image:: sc9_sym/DFFNRSNQ_X1_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1 schematic**
 
-.. image:: sc9_sch/DFFNRSNQ_X1_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1 layout**
 
-.. image:: sc9_lay/DFFNRSNQ_X1_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1 layout
 
-.. include:: images.rst
+
 | DFFNRSNQ_X1 is a negative edge triggered D-type flip flop with active low set/reset and 1X drive strength
 
 |
@@ -53,7 +44,9 @@ L     L    X X    L
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image212|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__dffnrsnq_1.png
+
 | CONSTRAINTS
 
 ================== =============== ============= ============

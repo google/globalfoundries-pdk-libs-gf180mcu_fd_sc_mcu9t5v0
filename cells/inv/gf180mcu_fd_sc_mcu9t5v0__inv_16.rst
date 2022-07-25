@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__inv_x16
 
 **gf180mcu_fd_sc_mcu9t5v0__inv_x16 symbol**
 
-.. image:: sc9_sym/INV_X16_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_16.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__inv_x16 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__inv_x16 schematic**
 
-.. image:: sc9_sch/INV_X16_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_16.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__inv_x16 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__inv_x16 layout**
 
-.. image:: sc9_lay/INV_X16_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_16.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__inv_x16 layout
 
-.. include:: images.rst
+
 | INV_X16 is an inverter with 16X drive strength
 
 |
@@ -57,7 +48,9 @@ ZN             (!I)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image392|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__inv_16.png
+
 
 | PIN CAPACITANCE (pf)
 

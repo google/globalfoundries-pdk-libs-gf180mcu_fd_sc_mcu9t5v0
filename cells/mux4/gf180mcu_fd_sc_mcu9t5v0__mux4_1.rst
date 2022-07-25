@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__mux4_1
 
 **gf180mcu_fd_sc_mcu9t5v0__mux4_1 symbol**
 
-.. image:: sc9_sym/MUX4_X1_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__mux4_1.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__mux4_1 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__mux4_1 schematic**
 
-.. image:: sc9_sch/MUX4_X1_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__mux4_1.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__mux4_1 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__mux4_1 layout**
 
-.. image:: sc9_lay/MUX4_X1_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__mux4_1.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__mux4_1 layout
 
-.. include:: images.rst
+
 | MUX4_X1 is a 4-to-1 multiplexer with 1X drive strength
 
 |
@@ -63,7 +54,9 @@ Z              ((I0&(!S0)&(!S1))|(I1&S0&(!S1))|(I2&(!S0)&S1)|(I3&S0&S1))
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image455|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__mux4_1.png
+
 
 | PIN CAPACITANCE (pf)
 

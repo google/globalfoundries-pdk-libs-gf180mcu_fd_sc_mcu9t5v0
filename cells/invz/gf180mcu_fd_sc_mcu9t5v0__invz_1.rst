@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__invz_1
 
 **gf180mcu_fd_sc_mcu9t5v0__invz_1 symbol**
 
-.. image:: sc9_sym/INVZ_X1_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_1.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__invz_1 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__invz_1 schematic**
 
-.. image:: sc9_sch/INVZ_X1_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_1.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__invz_1 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__invz_1 layout**
 
-.. image:: sc9_lay/INVZ_X1_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_1.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__invz_1 layout
 
-.. include:: images.rst
+
 | INVZ_X1 is a tri-state inverter with 1X drive strength
 
 |
@@ -58,7 +49,9 @@ ZN             (!I)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image365|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_1.png
+
 
 | PIN CAPACITANCE (pf)
 

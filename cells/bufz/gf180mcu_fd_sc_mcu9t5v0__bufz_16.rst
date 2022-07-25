@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__bufz_x16
 
 **gf180mcu_fd_sc_mcu9t5v0__bufz_x16 symbol**
 
-.. image:: sc9_sym/BUFZ_X16_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__bufz_16.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__bufz_x16 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__bufz_x16 schematic**
 
-.. image:: sc9_sch/BUFZ_X16_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__bufz_16.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__bufz_x16 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__bufz_x16 layout**
 
-.. image:: sc9_lay/BUFZ_X16_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__bufz_16.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__bufz_x16 layout
 
-.. include:: images.rst
+
 | BUFZ_X16 is a tri-state buffer with 16X drive strength
 
 |
@@ -58,7 +49,9 @@ Z              I
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image107|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__bufz_16.png
+
 
 | PIN CAPACITANCE (pf)
 

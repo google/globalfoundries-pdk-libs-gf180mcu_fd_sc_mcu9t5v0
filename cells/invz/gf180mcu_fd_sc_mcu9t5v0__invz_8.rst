@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__invz_8
 
 **gf180mcu_fd_sc_mcu9t5v0__invz_8 symbol**
 
-.. image:: sc9_sym/INVZ_X8_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_8.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__invz_8 symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__invz_8 schematic**
 
-.. image:: sc9_sch/INVZ_X8_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_8.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__invz_8 schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__invz_8 layout**
 
-.. image:: sc9_lay/INVZ_X8_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_8.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__invz_8 layout
 
-.. include:: images.rst
+
 | INVZ_X8 is a tri-state inverter with 8X drive strength
 
 |
@@ -58,7 +49,9 @@ ZN             (!I)
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image383|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__invz_8.png
+
 
 | PIN CAPACITANCE (pf)
 

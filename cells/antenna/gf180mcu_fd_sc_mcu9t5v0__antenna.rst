@@ -4,29 +4,20 @@ gf180mcu_fd_sc_mcu9t5v0__antenna
 
 **gf180mcu_fd_sc_mcu9t5v0__antenna symbol**
 
-.. image:: sc9_sym/ANTENNA_sym.png
-    :height: 200px
-    :width: 400 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__antenna.symbol.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__antenna symbol
 
 **gf180mcu_fd_sc_mcu9t5v0__antenna schematic**
 
-.. image:: sc9_sch/ANTENNA_sch.png
-    :height: 250px
-    :width: 450 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__antenna.schematic.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__antenna schematic
 
 **gf180mcu_fd_sc_mcu9t5v0__antenna layout**
 
-.. image:: sc9_lay/ANTENNA_lay.png
-    :height: 300px
-    :width: 500 px
-    :align: center
+.. image:: gf180mcu_fd_sc_mcu9t5v0__antenna.layout.png
     :alt: gf180mcu_fd_sc_mcu9t5v0__antenna layout
 
-.. include:: images.rst
+
 | ANTENNA is an antenna cell
 
 |
@@ -40,7 +31,9 @@ area          5.644800 µm\ :sup:`2`
 |
 | FUNCTIONAL SCHEMATIC
 
-| |image53|
+
+.. image:: gf180mcu_fd_sc_mcu9t5v0__antenna.png
+
 
 | PIN CAPACITANCE (pf)
 
