@@ -23,7 +23,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__tieh
     DIRECTION OUTPUT ;
     ANTENNADIFFAREA 0.396 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 1.27 2.89 1.53 2.89 1.53 3.7 1.27 3.7  ;
     END
   END Z
@@ -32,7 +32,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__tieh
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 4.59 0.25 4.59 0.25 2.945 0.48 2.945 0.48 4.59 1.6 4.59 2.24 4.59 2.24 5.49 1.6 5.49 0 5.49  ;
     END
   END VDD
@@ -41,12 +41,12 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__tieh
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.45 2.24 -0.45 2.24 0.45 0.48 0.45 0.48 1.355 0.25 1.355 0.25 0.45 0 0.45  ;
     END
   END VSS
   OBS
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.875 1.83 1.37 1.83 1.37 1.315 1.6 1.315 1.6 2.06 0.875 2.06  ;
   END
 END gf180mcu_fd_sc_mcu9t5v0__tieh

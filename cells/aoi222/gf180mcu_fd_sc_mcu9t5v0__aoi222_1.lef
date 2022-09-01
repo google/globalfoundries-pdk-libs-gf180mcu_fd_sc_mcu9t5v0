@@ -23,7 +23,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__aoi222_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 6.8 2.415 7.725 2.415 7.725 3.27 6.8 3.27  ;
     END
   END A1
@@ -31,7 +31,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__aoi222_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 5.145 1.77 6.01 1.77 6.01 2.15 5.145 2.15  ;
     END
   END A2
@@ -39,7 +39,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__aoi222_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.67 1.77 3.83 1.77 3.83 2.15 2.67 2.15  ;
     END
   END B1
@@ -47,7 +47,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__aoi222_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 4.05 2.255 4.91 2.255 4.91 2.71 4.05 2.71  ;
     END
   END B2
@@ -55,7 +55,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__aoi222_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 1.22 1.21 2.145 1.21 2.145 2.06 1.22 2.06  ;
     END
   END C1
@@ -63,7 +63,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__aoi222_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.115 2.235 1.07 2.235 1.07 2.71 0.115 2.71  ;
     END
   END C2
@@ -71,7 +71,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__aoi222_1
     DIRECTION OUTPUT ;
     ANTENNADIFFAREA 3.1692 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 6.22 2.875 6.24 2.875 6.24 1.49 3.16 1.49 3.16 0.68 3.39 0.68 3.39 1.21 7.24 1.21 7.24 0.68 7.47 0.68 7.47 1.59 6.47 1.59 6.47 3.215 6.22 3.215  ;
     END
   END ZN
@@ -80,7 +80,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__aoi222_1
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 4.59 0.4 4.59 0.4 3.875 0.63 3.875 0.63 4.59 2.44 4.59 2.44 3.875 2.67 3.875 2.67 4.59 7.47 4.59 7.84 4.59 7.84 5.49 7.47 5.49 0 5.49  ;
     END
   END VDD
@@ -89,12 +89,12 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__aoi222_1
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.45 7.84 -0.45 7.84 0.45 5.43 0.45 5.43 0.695 5.2 0.695 5.2 0.45 0.71 0.45 0.71 1.165 0.48 1.165 0.48 0.45 0 0.45  ;
     END
   END VSS
   OBS
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 1.365 2.94 4.465 2.94 4.465 3.81 4.125 3.81 4.125 3.17 1.71 3.17 1.71 3.7 1.365 3.7  ;
         POLYGON 3.16 3.55 3.39 3.55 3.39 4.13 5.2 4.13 5.2 3.55 7.47 3.55 7.47 4.36 3.16 4.36  ;
   END

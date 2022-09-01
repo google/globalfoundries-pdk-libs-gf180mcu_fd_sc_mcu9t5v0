@@ -23,7 +23,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__oai221_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 5.19 1.77 5.455 1.77 5.455 2.555 5.19 2.555  ;
     END
   END A1
@@ -31,7 +31,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__oai221_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 4.07 2.215 4.435 2.215 4.435 2.71 4.07 2.71  ;
     END
   END A2
@@ -39,7 +39,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__oai221_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 1.83 2.15 2.09 2.15 2.09 2.71 1.83 2.71  ;
     END
   END B1
@@ -47,7 +47,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__oai221_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.707 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.71 1.77 1.015 1.77 1.015 2.555 0.71 2.555  ;
     END
   END B2
@@ -55,7 +55,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__oai221_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.522 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.95 2.27 3.29 2.27 3.29 2.71 2.95 2.71  ;
     END
   END C
@@ -63,7 +63,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__oai221_1
     DIRECTION OUTPUT ;
     ANTENNADIFFAREA 2.6616 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 4.895 3.09 6.035 3.09 6.035 4.36 5.805 4.36 5.805 3.32 2.795 3.32 2.795 4.36 2.715 4.36 2.565 4.36 2.565 3.09 2.715 3.09 4.665 3.09 4.665 1.59 4.63 1.59 4.63 1.14 5.015 1.14 5.015 1.48 4.895 1.48  ;
     END
   END ZN
@@ -72,7 +72,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__oai221_1
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 4.59 0.345 4.59 0.345 3.55 0.575 3.55 0.575 4.59 2.715 4.59 3.585 4.59 3.585 3.55 3.815 3.55 3.815 4.59 6.135 4.59 6.72 4.59 6.72 5.49 6.135 5.49 2.715 5.49 0 5.49  ;
     END
   END VDD
@@ -81,12 +81,12 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__oai221_1
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.45 6.72 -0.45 6.72 0.45 1.595 0.45 1.595 1.07 1.365 1.07 1.365 0.45 0 0.45  ;
     END
   END VSS
   OBS
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.245 0.73 0.475 0.73 0.475 1.31 2.485 1.31 2.485 0.73 2.715 0.73 2.715 1.54 0.245 1.54  ;
         POLYGON 3.665 0.68 6.135 0.68 6.135 1.54 5.905 1.54 5.905 0.91 3.895 0.91 3.895 1.54 3.665 1.54  ;
   END
