@@ -23,7 +23,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__nand4_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.432 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 3.985 2.27 4.33 2.27 4.33 2.71 3.985 2.71  ;
     END
   END A1
@@ -31,7 +31,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__nand4_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.432 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.915 2.215 3.21 2.215 3.21 2.71 2.915 2.71  ;
     END
   END A2
@@ -39,7 +39,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__nand4_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.432 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 1.83 1.77 2.09 1.77 2.09 2.555 1.83 2.555  ;
     END
   END A3
@@ -47,7 +47,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__nand4_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.432 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.71 1.77 1.125 1.77 1.125 2.5 0.71 2.5  ;
     END
   END A4
@@ -55,7 +55,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__nand4_1
     DIRECTION OUTPUT ;
     ANTENNADIFFAREA 1.912 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 1.42 3.26 3.54 3.26 3.54 3.025 4.56 3.025 4.56 1.49 4.48 1.49 4.48 0.68 4.79 0.68 4.79 3.255 3.77 3.255 3.77 4.36 3.46 4.36 3.46 3.49 1.65 3.49 1.65 4.36 1.42 4.36  ;
     END
   END ZN
@@ -64,7 +64,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__nand4_1
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 4.59 0.4 4.59 0.4 3.72 0.63 3.72 0.63 4.59 2.44 4.59 2.44 3.72 2.67 3.72 2.67 4.59 4.48 4.59 4.48 3.485 4.71 3.485 4.71 4.59 5.04 4.59 5.04 5.49 0 5.49  ;
     END
   END VDD
@@ -73,7 +73,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__nand4_1
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.45 5.04 -0.45 5.04 0.45 0.63 0.45 0.63 1.49 0.4 1.49 0.4 0.45 0 0.45  ;
     END
   END VSS
