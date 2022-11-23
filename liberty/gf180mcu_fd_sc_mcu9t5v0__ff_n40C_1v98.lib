@@ -31,8 +31,8 @@ library(gf180mcu_fd_sc_mcu9t5v0__ff_n40C_1v98) {
   slew_lower_threshold_pct_fall : 30 ; 
   slew_lower_threshold_pct_rise : 30 ; 
   slew_upper_threshold_pct_fall : 70 ; 
-  slew_upper_threshold_pct_rise : 70 ;   
-  default_fanout_load : 1.0000000000 ;  
+  slew_upper_threshold_pct_rise : 70 ; 
+  default_fanout_load : 1.0000000000 ; 
   nom_process : 1 ; 
   nom_temperature : -40 ; 
   nom_voltage : 1.98 ; 
