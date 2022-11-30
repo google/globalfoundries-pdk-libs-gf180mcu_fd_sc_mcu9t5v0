@@ -4299,7 +4299,7 @@
       ff(IQ1,IQN1) {
         clocked_on : CLK ;
         next_state : D ;
-        clear : !RN ;
+        clear : "!RN" ;
       }
 
       pin(CLK) {
