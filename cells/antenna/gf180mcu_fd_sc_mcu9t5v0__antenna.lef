@@ -13,7 +13,7 @@
 # limitations under the License.
 
 MACRO gf180mcu_fd_sc_mcu9t5v0__antenna
-  CLASS core gf180mcu_fd_sc_mcu9t5v0__antennaCELL ;
+  CLASS core ANTENNACELL ;
   FOREIGN gf180mcu_fd_sc_mcu9t5v0__antenna 0.0 0.0 ;
   ORIGIN 0 0 ;
   SYMMETRY X Y ;
