@@ -21,7 +21,7 @@ MACRO gf180mcu_fd_sc_mcu9t5v0__antenna
   SIZE 1.12 BY 5.04 ;
   PIN I
     DIRECTION INPUT ;
-    gf180mcu_fd_sc_mcu9t5v0__antennaDIFFAREA 0.4068 ;
+    ANTENNADIFFAREA 0.4068 ;
     PORT
       LAYER Metal1 ;
         POLYGON 0.15 1.315 0.475 1.315 0.475 3.215 0.15 3.215  ;
