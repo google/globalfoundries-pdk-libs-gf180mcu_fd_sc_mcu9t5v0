@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__dffsnq_4( CLK, D, SETN, Q, notifier );
+module gf180mcu_fd_sc_mcu9t5v0__dffsnq_4_func( CLK, D, SETN, Q, notifier );
 input CLK, D, SETN, notifier;
 output Q;
 
@@ -20,7 +20,7 @@ output Q;
 
 	not MGM_BG_1( MGM_D0, D );
 
-	UDP_GF018hv5v_mcu_sc9_TT_1P8V_25C_verilog_nonpg_MGM_N_IQ_FF_UDP( IQ1, MGM_C0, 1'b0, CLK, MGM_D0, notifier );
+	gf180mcu_fd_sc_mcu9t5v0__udp_n_iq_ff( IQ1, MGM_C0, 1'b0, CLK, MGM_D0, notifier );
 
 	not MGM_BG_2( Q, IQ1 );
 

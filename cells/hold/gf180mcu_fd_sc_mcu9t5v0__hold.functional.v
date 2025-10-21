@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__hold( Z );
+module gf180mcu_fd_sc_mcu9t5v0__hold_func( Z );
 inout Z;
 
 	buf (weak0, weak1) MGM_BG_0( Z, MGM_WB_0 );

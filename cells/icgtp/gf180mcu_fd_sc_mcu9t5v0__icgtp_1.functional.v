@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__icgtp_1( TE, E, CLK, Q, notifier );
+module gf180mcu_fd_sc_mcu9t5v0__icgtp_1_func( TE, E, CLK, Q, notifier );
 input CLK, E, TE, notifier;
 output Q;
 
@@ -20,7 +20,7 @@ output Q;
 
 	or MGM_BG_1( MGM_D0, E, TE );
 
-	UDP_GF018hv5v_mcu_sc9_TT_1P8V_25C_verilog_nonpg_MGM_N_IQ_LATCH_UDP( IQ2, 1'b0, 1'b0, MGM_EN0, MGM_D0, notifier );
+	gf180mcu_fd_sc_mcu9t5v0__udp_n_iq_latch( IQ2, 1'b0, 1'b0, MGM_EN0, MGM_D0, notifier );
 
 	and MGM_BG_2( Q, CLK, IQ2 );
 
