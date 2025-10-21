@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__latrnq_2( E, RN, D, Q, VDD, VSS, notifier );
+module gf180mcu_fd_sc_mcu9t5v0__latrnq_2_func( E, RN, D, Q, VDD, VSS, notifier );
 input D, E, RN, VDD, VSS, notifier;
 output Q;
 
 	not MGM_BG_0( MGM_C0, RN );
 
-	UDP_GF018hv5v_mcu_sc9_TT_5P0V_25C_verilog_pg_MGM_N_IQ_LATCH_UDP( IQ2, MGM_C0, 1'b0, E, D, notifier );
+	gf180mcu_fd_sc_mcu9t5v0__udp_n_iq_latch( IQ2, MGM_C0, 1'b0, E, D, notifier );
 
 	buf MGM_BG_1( Q, IQ2 );
 

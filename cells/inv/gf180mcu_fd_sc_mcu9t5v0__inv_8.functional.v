@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__inv_8( I, ZN );
+module gf180mcu_fd_sc_mcu9t5v0__inv_8_func( I, ZN );
 input I;
 output ZN;
 

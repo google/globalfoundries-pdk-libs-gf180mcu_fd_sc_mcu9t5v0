@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__invz_2( EN, ZN, I );
+module gf180mcu_fd_sc_mcu9t5v0__invz_2_func( EN, ZN, I );
 input EN, I;
 output ZN;
 

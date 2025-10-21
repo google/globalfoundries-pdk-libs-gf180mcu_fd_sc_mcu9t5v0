@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__xnor3_2( A2, A1, A3, ZN );
+module gf180mcu_fd_sc_mcu9t5v0__xnor3_2_func( A2, A1, A3, ZN );
 input A1, A2, A3;
 output ZN;
 

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__nor3_1( A3, ZN, A2, A1 );
+module gf180mcu_fd_sc_mcu9t5v0__nor3_1_func( A3, ZN, A2, A1 );
 input A1, A2, A3;
 output ZN;
 

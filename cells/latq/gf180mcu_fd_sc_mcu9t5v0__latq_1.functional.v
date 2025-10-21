@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__latq_1( E, D, Q, notifier );
+module gf180mcu_fd_sc_mcu9t5v0__latq_1_func( E, D, Q, notifier );
 input D, E, notifier;
 output Q;
 
 	not MGM_BG_0( MGM_D0, D );
 
-	UDP_GF018hv5v_mcu_sc9_TT_1P8V_25C_verilog_nonpg_MGM_N_IQ_LATCH_UDP( IQ1, 1'b0, 1'b0, E, MGM_D0, notifier );
+	gf180mcu_fd_sc_mcu9t5v0__udp_n_iq_latch( IQ1, 1'b0, 1'b0, E, MGM_D0, notifier );
 
 	not MGM_BG_1( Q, IQ1 );
 

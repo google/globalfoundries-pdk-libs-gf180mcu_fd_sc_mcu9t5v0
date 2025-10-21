@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__aoi22_4( B2, ZN, B1, A2, A1 );
+module gf180mcu_fd_sc_mcu9t5v0__aoi22_4_func( B2, ZN, B1, A2, A1 );
 input A1, A2, B1, B2;
 output ZN;
 

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu9t5v0__latrsnq_4( E, RN, D, SETN, Q, notifier );
+module gf180mcu_fd_sc_mcu9t5v0__latrsnq_4_func( E, RN, D, SETN, Q, notifier );
 input D, E, RN, SETN, notifier;
 output Q;
 
